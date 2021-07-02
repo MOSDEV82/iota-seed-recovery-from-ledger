@@ -29,7 +29,8 @@ After building the container, start the docker container interactive
   docker run -it iota-seed-recovery-from-ledger
 ```
 
-You will be prompted for the 24 words!
+You will be prompted for the 24 words! After entering these words, you will get your 81 char Trinity SEED.
+Use this SEED in Firefly to recover your coins!
 
 For your own security, disable the network connection to your computer! But you are able to check the tool from MuXxer and mine short script.
 I just add the first line in the requirements.txt, because it was needed.
