@@ -25,4 +25,3 @@ RUN pip install -r requirements.txt
 # run the ledger recovery
 ENTRYPOINT ["python"]
 CMD ["mnemonics_to_iota_seed.py"]
-#CMD ["/bin/bash"]
