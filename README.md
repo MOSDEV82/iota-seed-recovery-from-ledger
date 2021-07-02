@@ -12,6 +12,7 @@ We will never ask you for this information!
 ### Install requirements
 
 First of all you need to download Docker for Windows
+
 [Download Docker](https://desktop.docker.com/win/stable/amd64/Docker%20Desktop%20Installer.exe?utm_source=docker&utm_medium=webreferral&utm_campaign=dd-smartbutton&utm_location=header)
 
 After downloading and installing Docker in Windows you need this both files (Dockerfile and requirements.txt). Copy these files to a own directory on your harddisk.
@@ -34,3 +35,6 @@ Use this SEED in Firefly to recover your coins!
 
 For your own security, disable the network connection to your computer! But you are able to check the tool from MuXxer and mine short script.
 I just add the first line in the requirements.txt, because it was needed.
+
+Diclaimer: All what you do is your OWN RISK! I don't pay for loosing your token or OTHER assets, stored with your ledger mnemonics!
+Use an virtual machine without network connection during entering your mnemonics!!!
