@@ -16,7 +16,7 @@ First of all you need to download Docker for Windows
 
 [Download Docker](https://desktop.docker.com/win/stable/amd64/Docker%20Desktop%20Installer.exe?utm_source=docker&utm_medium=webreferral&utm_campaign=dd-smartbutton&utm_location=header)
 
-After downloading and installing Docker in Windows you need this both files (Dockerfile and requirements.txt). Copy these files to a own directory on your harddisk.
+After downloading and installing Docker for Windows you need this both files (Dockerfile and requirements.txt), if you like to build an own image. Copy these files into a directory on your harddisk. You also are able to pull my image (see below)...
 Example: C:\iota
 
 Open a shell (cmd) and change to this directory
@@ -30,7 +30,7 @@ Build the docker container
 
 After building the container, start the docker container interactive
 ```sh
-  docker run -it iota-seed-recovery-from-ledger
+  docker run -it --network none iota-seed-recovery-from-ledger
 ```
 
 ### Download prepared docker image (This image is build with my script)
@@ -41,7 +41,7 @@ After building the container, start the docker container interactive
 
 After pulling the container, start the docker container interactive
 ```sh
-  docker run -it mosdev82/iota-seed-recovery-from-ledger
+  docker run -it --network none mosdev82/iota-seed-recovery-from-ledger
 ```
 
 You will be prompted for the 24 words! After entering these words, you will get your 81 char Trinity SEED.
