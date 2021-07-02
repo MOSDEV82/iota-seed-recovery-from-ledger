@@ -1,5 +1,6 @@
 # iota-seed-recovery-from-ledger 
 Recover an IOTA seed from the ledger Nano S/X with your recovery phrase
+Download the prebuild docker container OR build the container with docker file!
 
 All thanks to MuXxer! He wrote basically the python program.
 [MuXxer Recovery Seed ORIGINAL](https://github.com/muXxer/recover-iota-seed-from-ledger-mnemonics/)
@@ -31,7 +32,6 @@ After building the container, start the docker container interactive
 ```sh
   docker run -it iota-seed-recovery-from-ledger
 ```
-
 
 ### Download prepared docker image (This image is build with my script)
 
