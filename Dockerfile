@@ -14,7 +14,7 @@ RUN mkdir /app
 WORKDIR /app
 
 # Clone from GITHUB Repository
-RUN git clone https://github.com/MOSDEV82/recover-iota-seed-from-ledger-mnemonics /app
+RUN git clone https://github.com/muXxer/recover-iota-seed-from-ledger-mnemonics /app
 
 # Copy new requirements.txt (added pyopenssl library)
 COPY requirements.txt .
