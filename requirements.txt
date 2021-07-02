@@ -1,0 +1,5 @@
+pyopenssl==20.0.1
+pyota==2.0.6
+mnemonic==0.18
+git+git://github.com/muXxer/bip32utils@125de37afd4f0b1fe9c4685129a3800d75632ea2#egg=bip32utils
+xxhash==1.2.0
