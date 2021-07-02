@@ -27,17 +27,21 @@ Build the docker container
   docker build . --tag iota-seed-recovery-from-ledger:latest
 ```
 
+After building the container, start the docker container interactive
+```sh
+  docker run -it iota-seed-recovery-from-ledger
+```
+
+
 ### Download prepared docker image (This image is build with my script)
 
 ```sh
   docker pull mosdev82/iota-seed-recovery-from-ledger
 ```
 
-### Start docker container interactive
-
-After building the container, start the docker container interactive
+After pulling the container, start the docker container interactive
 ```sh
-  docker run -it iota-seed-recovery-from-ledger
+  docker run -it mosdev82/iota-seed-recovery-from-ledger
 ```
 
 You will be prompted for the 24 words! After entering these words, you will get your 81 char Trinity SEED.
