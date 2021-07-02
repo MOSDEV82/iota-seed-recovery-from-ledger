@@ -20,10 +20,20 @@ Example: C:\iota
 
 Open a shell (cmd) and change to this directory
 
+### Build docker image from Dockerfile
+
 Build the docker container
 ```sh
   docker build . --tag iota-seed-recovery-from-ledger:latest
 ```
+
+### Download prepared docker image (This image is build with my script)
+
+```sh
+  docker pull mosdev82/iota-seed-recovery-from-ledger
+```
+
+### Start docker container interactive
 
 After building the container, start the docker container interactive
 ```sh
@@ -36,5 +46,5 @@ Use this SEED in Firefly to recover your coins!
 For your own security, disable the network connection to your computer! But you are able to check the tool from MuXxer and mine short script.
 I just add the first line in the requirements.txt, because it was needed.
 
-Diclaimer: All what you do is your OWN RISK! I don't pay for loosing your token or OTHER assets, stored with your ledger mnemonics!
+Disclaimer: All what you do is your OWN RISK! I don't pay for loosing your token or OTHER assets, stored with your ledger mnemonics!
 Use an virtual machine without network connection during entering your mnemonics!!!
